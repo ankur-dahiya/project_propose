@@ -64,7 +64,7 @@ function getRandomColor() {
 }
 
 function showAlertAndRedirect() {
-  alert('I LOVE YOU BABE!💖');
+  alert('I LOVE YOU MY MAGANDA DARLING!💖');
   window.location.href = './love-page/love.html';
 } 
 
@@ -83,8 +83,8 @@ yesButton.addEventListener('keydown', function (e) {
   }
 });
 
-noButton.addEventListener('click', () => moveButton(noButton)); // Move "No" button
-noButton.addEventListener('keydown', function (e) {
+button.addEventListener('click', () => moveButton(button)); // Move "No" button
+button.addEventListener('keydown', function (e) {
   if (e.key === 'Enter') {
     e.preventDefault();
   }
